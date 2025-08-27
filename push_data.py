@@ -70,6 +70,6 @@ if __name__=='__main__':
     records=networkobj.csv_to_json(file_path=FILE_PATH)
     no_of_records=networkobj.insert_data(records, DATABASE, Collection)
     print(records)
-    (records, DATABASE, Collection)
+    # (records, DATABASE, Collection)
     print(no_of_records)
 
